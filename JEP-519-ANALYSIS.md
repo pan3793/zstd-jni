@@ -52,14 +52,14 @@ The analysis examined the codebase for:
 
 **Details:**
 
-#### GetPrimitiveArrayCritical Usage (37 instances)
+#### GetPrimitiveArrayCritical Usage (32 instances)
 
 Files with GetPrimitiveArrayCritical calls:
-- `src/main/native/jni_zstd.c` - 9 usages
-- `src/main/native/jni_fast_zstd.c` - 13 usages  
+- `src/main/native/jni_zstd.c` - 7 usages
+- `src/main/native/jni_fast_zstd.c` - 14 usages  
 - `src/main/native/jni_bufferdecompress_zstd.c` - 2 usages
-- `src/main/native/jni_inputstream_zstd.c` - 4 usages
-- `src/main/native/jni_outputstream_zstd.c` - 6 usages
+- `src/main/native/jni_inputstream_zstd.c` - 2 usages
+- `src/main/native/jni_outputstream_zstd.c` - 4 usages
 - `src/main/native/jni_directbuffercompress_zstd.c` - 1 usage
 - `src/main/native/jni_zdict.c` - 2 usages
 
