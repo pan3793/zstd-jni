@@ -154,6 +154,11 @@ prebuilt android archive (aar):
 For example Android app and how to declare dependencies and use zstd-jni, consult
 the 2nd and 3rd commit of: https://github.com/luben/ZstdAndroidExample
 
+JEP 519 Compatibility
+--------------------
+
+This library is fully compatible with JEP 519 (Compact Object Headers), which changes internal JVM object layout in future JDK releases. The JNI implementation uses standard APIs that are unaffected by these changes. For details, see [JEP-519-ANALYSIS.md](JEP-519-ANALYSIS.md) and [docs/JEP-519-COMPATIBILITY.md](docs/JEP-519-COMPATIBILITY.md).
+
 License
 -------
 
